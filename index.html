@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulário - Uso de Telas e Redes Sociais</title>
+</head>
+<body>
+
+    <h1>Formulário: Uso de Telas e Redes Sociais</h1>
+
+    <p>
+        Este formulário tem como objetivo coletar informações sobre o uso diário 
+        de telas e redes sociais. As respostas são utilizadas apenas para fins educativos.
+    </p>
+
+    <form>
+
+        <label for="idade">1. Sua idade:</label><br>
+        <input type="number" id="idade" name="idade" min="5" max="100" required><br><br>
+
+        <label for="tempo">2. Quanto tempo você passa em frente a telas por dia?</label><br>
+        <select id="tempo" name="tempo" required>
+            <option value="">Selecione</option>
+            <option value="menos1">Menos de 1 hora</option>
+            <option value="1-3">1 a 3 horas</option>
+            <option value="3-5">3 a 5 horas</option>
+            <option value="5-8">5 a 8 horas</option>
+            <option value="8+">Mais de 8 horas</option>
+        </select><br><br>
+
+        <p>3. Quais redes sociais você utiliza com mais frequência?</p>
+        <input type="checkbox" name="rede" value="Instagram"> Instagram<br>
+        <input type="checkbox" name="rede" value="TikTok"> TikTok<br>
+        <input type="checkbox" name="rede" value="WhatsApp"> WhatsApp<br>
+        <input type="checkbox" name="rede" value="YouTube"> YouTube<br>
+        <input type="checkbox" name="rede" value="Facebook"> Facebook<br>
+        <input type="checkbox" name="rede" value="Outros"> Outros<br><br>
+
+        <p>4. O uso das redes sociais afeta seu sono?</p>
+        <input type="radio" name="sono" value="sim" required> Sim<br>
+        <input type="radio" name="sono" value="nao"> Não<br>
+        <input type="radio" name="sono" value="as_vezes"> Às vezes<br><br>
+
+        <label for="comentarios">5. Comentários sobre seus hábitos digitais:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
