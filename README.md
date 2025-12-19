@@ -1,5 +1,1 @@
-Com o crescimento do uso das redes sociais, tornou-se comum a criação e organização de conteúdos digitais, como textos, imagens e ideias para postagens. Muitas pessoas produzem conteúdos diariamente, mas não possuem uma ferramenta simples para registrar, visualizar e organizar suas publicações planejadas.
-
-Pensando nisso, este projeto tem como objetivo o desenvolvimento de uma aplicação web estática que simula um Gerenciador de Publicações, permitindo ao usuário cadastrar informações básicas de uma postagem — como título, tipo de conteúdo, plataforma de destino e descrição — e exibir esses dados em uma lista organizada na própria página.
-
-A aplicação utiliza HTML para estruturar o formulário e a lista de publicações, CSS para estilização e responsividade da interface, e JavaScript para manipulação dos dados inseridos pelo usuário, tornando a página interativa. Dessa forma, o projeto consolida conceitos fundamentais do desenvolvimento web, como formulários, elementos da DOM, eventos e organização visual da informação.
+O formulário foi desenvolvido com fins educacionais, abrangendo hábitos digitais e seus possíveis impactos na vida acadêmica e pessoa, muito interessante para entender como as redes nos afetam.
