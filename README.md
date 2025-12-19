@@ -1,16 +1,5 @@
-Formulário – Uso de Telas e Redes Sociais
+Com o crescimento do uso das redes sociais, tornou-se comum a criação e organização de conteúdos digitais, como textos, imagens e ideias para postagens. Muitas pessoas produzem conteúdos diariamente, mas não possuem uma ferramenta simples para registrar, visualizar e organizar suas publicações planejadas.
 
+Pensando nisso, este projeto tem como objetivo o desenvolvimento de uma aplicação web estática que simula um Gerenciador de Publicações, permitindo ao usuário cadastrar informações básicas de uma postagem — como título, tipo de conteúdo, plataforma de destino e descrição — e exibir esses dados em uma lista organizada na própria página.
 
-Este projeto consiste em uma página HTML com um formulário destinado à coleta de dados sobre o uso de telas e redes sociais por estudantes.
-
-
-## Contexto
-O formulário foi desenvolvido com fins educacionais, visando compreender hábitos digitais e seus possíveis impactos na vida acadêmica e pessoal.
-
-
-## Tecnologias Utilizadas
-HTML5
-
-
-## Objetivo
-Praticar a estruturação de páginas HTML e o uso de formulários para coleta de informações.
+A aplicação utiliza HTML para estruturar o formulário e a lista de publicações, CSS para estilização e responsividade da interface, e JavaScript para manipulação dos dados inseridos pelo usuário, tornando a página interativa. Dessa forma, o projeto consolida conceitos fundamentais do desenvolvimento web, como formulários, elementos da DOM, eventos e organização visual da informação.
