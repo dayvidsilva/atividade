@@ -3,81 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Redes Sociais</title>
+    <title>Hábitos Digitais</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Gerenciador de Redes Sociais</h1>
-    <p>Cadastro e visualização de redes sociais</p>
+    <h1>Pesquisa sobre Hábitos Digitais</h1>
+    <p>
+        O formulário foi desenvolvido com fins educacionais, abrangendo hábitos digitais
+        e seus possíveis impactos na vida acadêmica e pessoal.
+    </p>
 </header>
 
 <main>
+
     <!-- FORMULÁRIO -->
     <section>
-        <h2>Cadastrar Rede Social</h2>
+        <h2>Formulário</h2>
         <form>
+
             <label>
                 Nome:
                 <input type="text" required>
             </label>
 
             <label>
-                Categoria:
+                Idade:
+                <input type="number" required>
+            </label>
+
+            <label>
+                Você utiliza celular/redes sociais?
                 <select required>
                     <option value="">Selecione</option>
-                    <option>Mensagens</option>
-                    <option>Vídeos</option>
-                    <option>Fotos</option>
-                    <option>Profissional</option>
+                    <option>Sim</option>
+                    <option>Não</option>
                 </select>
             </label>
 
             <label>
-                Descrição:
-                <textarea required></textarea>
+                Quantas horas por dia você passa nas redes sociais?
+                <input type="number" required>
             </label>
 
-            <button type="submit">Adicionar</button>
+            <label>
+                Você acha que é afetado(a) pelo uso das redes sociais?
+                <select required>
+                    <option value="">Selecione</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                    <option>Talvez</option>
+                </select>
+            </label>
+
+            <label>
+                Você já tentou sair ou diminuir o uso das redes sociais?
+                <select required>
+                    <option value="">Selecione</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </label>
+
+            <button type="submit">Enviar</button>
         </form>
     </section>
 
     <!-- LISTA -->
     <section>
-        <h2>Lista de Redes Sociais</h2>
+        <h2>Respostas Registradas</h2>
         <ul>
             <li>
-                <strong>Instagram</strong><br>
-                Categoria: Fotos<br>
-                Rede social de fotos e vídeos.
+                <strong>Nome:</strong> Ana<br>
+                <strong>Idade:</strong> 17<br>
+                <strong>Uso de redes:</strong> Sim<br>
+                <strong>Horas por dia:</strong> 5<br>
+                <strong>Afetada:</strong> Sim<br>
+                <strong>Já tentou sair:</strong> Sim
             </li>
+
             <li>
-                <strong>WhatsApp</strong><br>
-                Categoria: Mensagens<br>
-                Aplicativo de mensagens instantâneas.
+                <strong>Nome:</strong> João<br>
+                <strong>Idade:</strong> 18<br>
+                <strong>Uso de redes:</strong> Sim<br>
+                <strong>Horas por dia:</strong> 4<br>
+                <strong>Afetado:</strong> Talvez<br>
+                <strong>Já tentou sair:</strong> Não
             </li>
+
             <li>
-                <strong>YouTube</strong><br>
-                Categoria: Vídeos<br>
-                Plataforma de compartilhamento de vídeos.
+                <strong>Nome:</strong> Maria<br>
+                <strong>Idade:</strong> 16<br>
+                <strong>Uso de redes:</strong> Sim<br>
+                <strong>Horas por dia:</strong> 6<br>
+                <strong>Afetada:</strong> Sim<br>
+                <strong>Já tentou sair:</strong> Sim
             </li>
+
             <li>
-                <strong>LinkedIn</strong><br>
-                Categoria: Profissional<br>
-                Rede social profissional.
+                <strong>Nome:</strong> Pedro<br>
+                <strong>Idade:</strong> 19<br>
+                <strong>Uso de redes:</strong> Sim<br>
+                <strong>Horas por dia:</strong> 3<br>
+                <strong>Afetado:</strong> Não<br>
+                <strong>Já tentou sair:</strong> Não
             </li>
+
             <li>
-                <strong>X (Twitter)</strong><br>
-                Categoria: Mensagens<br>
-                Postagens curtas e rápidas.
+                <strong>Nome:</strong> Lucas<br>
+                <strong>Idade:</strong> 17<br>
+                <strong>Uso de redes:</strong> Sim<br>
+                <strong>Horas por dia:</strong> 7<br>
+                <strong>Afetado:</strong> Sim<br>
+                <strong>Já tentou sair:</strong> Sim
             </li>
         </ul>
     </section>
+
 </main>
 
 <footer>
-    <p>Projeto Web Estático</p>
+    <p>Projeto Web Educacional – HTML e CSS</p>
 </footer>
 
 </body>
