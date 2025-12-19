@@ -1,61 +1,84 @@
 <!DOCTYPE html>
-<option value="Mensagens">Mensagens</option>
-<option value="Vídeos">Vídeos</option>
-<option value="Fotos">Fotos</option>
-<option value="Profissional">Profissional</option>
-</select>
-</label>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Redes Sociais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <h1>Gerenciador de Redes Sociais</h1>
+    <p>Cadastro e visualização de redes sociais</p>
+</header>
 
-<label>
-Descrição
-<textarea id="descricao" required></textarea>
-</label>
+<main>
+    <!-- FORMULÁRIO -->
+    <section>
+        <h2>Cadastrar Rede Social</h2>
+        <form>
+            <label>
+                Nome:
+                <input type="text" required>
+            </label>
 
+            <label>
+                Categoria:
+                <select required>
+                    <option value="">Selecione</option>
+                    <option>Mensagens</option>
+                    <option>Vídeos</option>
+                    <option>Fotos</option>
+                    <option>Profissional</option>
+                </select>
+            </label>
 
-<button type="submit">Adicionar</button>
-</form>
-</section>
+            <label>
+                Descrição:
+                <textarea required></textarea>
+            </label>
 
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
 
-<!-- Lista -->
-<section class="list-section">
-<h2>Lista de Redes Sociais</h2>
-<ul id="listaRedes">
-<li>
-<strong>Instagram</strong><br>
-Categoria: Fotos<br>
-Descrição: Rede social focada em compartilhamento de imagens e vídeos.
-</li>
-<li>
-<strong>WhatsApp</strong><br>
-Categoria: Mensagens<br>
-Descrição: Aplicativo de mensagens instantâneas e chamadas.
-</li>
-<li>
-<strong>YouTube</strong><br>
-Categoria: Vídeos<br>
-Descrição: Plataforma de publicação e consumo de vídeos.
-</li>
-<li>
-<strong>LinkedIn</strong><br>
-Categoria: Profissional<br>
-Descrição: Rede social voltada para networking profissional.
-</li>
-<li>
-<strong>X (Twitter)</strong><br>
-Categoria: Mensagens<br>
-Descrição: Rede social para postagens curtas e interações rápidas.
-</li>
-</ul>
-</section>
+    <!-- LISTA -->
+    <section>
+        <h2>Lista de Redes Sociais</h2>
+        <ul>
+            <li>
+                <strong>Instagram</strong><br>
+                Categoria: Fotos<br>
+                Rede social de fotos e vídeos.
+            </li>
+            <li>
+                <strong>WhatsApp</strong><br>
+                Categoria: Mensagens<br>
+                Aplicativo de mensagens instantâneas.
+            </li>
+            <li>
+                <strong>YouTube</strong><br>
+                Categoria: Vídeos<br>
+                Plataforma de compartilhamento de vídeos.
+            </li>
+            <li>
+                <strong>LinkedIn</strong><br>
+                Categoria: Profissional<br>
+                Rede social profissional.
+            </li>
+            <li>
+                <strong>X (Twitter)</strong><br>
+                Categoria: Mensagens<br>
+                Postagens curtas e rápidas.
+            </li>
+        </ul>
+    </section>
 </main>
 
-
 <footer>
-<p>Projeto Web Estático – HTML e CSS</p>
+    <p>Projeto Web Estático</p>
 </footer>
-
 
 </body>
 </html>
